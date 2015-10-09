@@ -1,0 +1,37 @@
+/* ===================================================
+MODIFIERS
+=================================================== */
+
+.is-container {
+	@include outer-container();
+}
+
+/* ---------------------------------------------------
+Grids
+--------------------------------------------------- */
+@for $i from 1 through 12 {
+	.is-grid-#{$i} {
+		@include span-columns($i);
+		@include omega();
+	}
+}
+@for $i from 1 through 12 {
+	.is-shift-#{$i} {
+		@include shift($i);
+	}
+}
+
+.is-gutter {
+	margin-right: $gutter;
+}
+
+.clear-left-gutter {
+	margin-left: $column;
+}
+
+/* ---------------------------------------------------
+Colors
+--------------------------------------------------- */
+.is-highlight-1 {
+	background-color: $color-highlight-1;
+}

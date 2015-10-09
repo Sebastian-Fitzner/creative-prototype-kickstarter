@@ -1,0 +1,40 @@
+{
+  "generator-veams": {
+    "projectName": "creative prototype kickstarter",
+    "projectAuthor": "Sebastian Fitzner",
+    "taskRunner": [
+      "grunt"
+    ],
+    "templateEngine": "assemble",
+    "installExtendedLayout": true,
+    "installPlugin": false,
+    "gulpModules": [],
+    "gruntModules": [
+      "grunt-autoprefixer",
+      "grunt-browser-sync",
+      "grunt-combine-mq",
+      "grunt-contrib-uglify",
+      "grunt-dr-svg-sprites",
+      "grunt-includes",
+      "grunt-version"
+    ],
+    "features": [
+      "createDevFolder"
+    ],
+    "jsLibs": [
+      "jquery"
+    ],
+    "cssLibs": [
+      "foundation",
+      "neat",
+      "bootstrap-sass"
+    ],
+    "testAndQA": false,
+    "testAndQALibs": [],
+    "veamsPackages": [
+      "veamsSCSS",
+      "veamsComponents"
+    ],
+    "docs": []
+  }
+}
