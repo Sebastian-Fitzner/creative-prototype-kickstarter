@@ -9,13 +9,11 @@ MODIFIERS
 /* ---------------------------------------------------
 Grids
 --------------------------------------------------- */
-@for $i from 1 through 12 {
+@for $i from 1 through $grid-columns {
 	.is-grid-#{$i} {
 		@include span-columns($i);
 		@include omega();
 	}
-}
-@for $i from 1 through 12 {
 	.is-shift-#{$i} {
 		@include shift($i);
 	}
@@ -32,6 +30,9 @@ Grids
 /* ---------------------------------------------------
 Colors
 --------------------------------------------------- */
-.is-highlight-1 {
+.is-bg-highlight-1 {
 	background-color: $color-highlight-1;
+}
+.is-bg-highlight-2 {
+	background-color: lighten($color-highlight-1, 15);
 }

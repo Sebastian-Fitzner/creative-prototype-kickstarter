@@ -1,3 +1,12 @@
-<section class="section{{#if options.context}}--{{options.context}}{{/if}}{{#unless options.full-width}} is-container{{/unless}}">
-	{{{yield}}}
+<section class="section{{#if options.context}}--{{options.context}}{{/if}}{{#if options.bg-color}} is-bg-{{options.bg-color}}{{/if}}">
+	{{#if options.headline}}
+		<header class="section__header{{#unless options.full-width}} is-container{{/unless}}">
+			<h2 class="section__headline">
+				{{options.headline}}
+			</h2>
+		</header>
+	{{/if}}
+	<div class="section__container{{#unless options.full-width}} is-container{{/unless}}">
+		{{{yield}}}
+	</div>
 </section>

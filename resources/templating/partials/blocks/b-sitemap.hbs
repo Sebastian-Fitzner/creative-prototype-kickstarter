@@ -1,0 +1,9 @@
+<nav class="b-sitemap">
+	<ul class="sitemap__list">
+		{{#each pages}}
+			<li class="sitemap__list-item">
+				<a href="{{autolink}}" class="sitemap__list-item-link{{#is ../page.dest this.dest}} is-active"{{/is}}>{{data.menuLink}}</a>
+			</li>
+		{{/each}}
+	</ul>
+</nav>

@@ -4,7 +4,7 @@ module.exports = {
 		data: '<%= paths.src %>/templating/data/**/*.json',
 		helpers: '<%= paths.src %>/templating/helpers/**/*.js',
 		layoutdir: '<%= paths.src %>/templating/layouts/',
-		layout: false, 
+		layout: false,
 		partials: [
 			'<%= paths.src %>/templating/partials/**/*.hbs',
 			'<%= paths.src %>/templating/layouts/*.hbs'
@@ -14,8 +14,7 @@ module.exports = {
 		]
 	},
 	pages: {
-		options: {
-		},
+		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templating/pages/',
 			dest: '<%= paths.dev %>/',

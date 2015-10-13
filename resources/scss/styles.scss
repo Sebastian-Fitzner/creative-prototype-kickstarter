@@ -2,11 +2,13 @@
 Main File For Imports
 =================================================== */
 
+// Reset (veams-reset or veams-normalize)
+@import "../bower-components/veams-sass/resources/scss/veams-reset";
+@import "../bower-components/bootstrap-sass/assets/stylesheets/bootstrap"; // You can choose your specific components
+
 // Helpers
 @import "../bower-components/bourbon/app/assets/stylesheets/bourbon";
 
-// Reset (veams-reset or veams-normalize)
-@import "../bower-components/veams-sass/resources/scss/veams-reset";
 
 // Global Variables and Settings
 @import "global/_vars";
@@ -15,7 +17,6 @@ Main File For Imports
 // Frameworks
 // @import "../bower-components/foundation/scss/foundation"; // You can choose your specific components
 @import "../bower-components/neat/app/assets/stylesheets/neat"; 
-@import "../bower-components/bootstrap-sass/assets/stylesheets/bootstrap"; // You can choose your specific components
 
 // Icons
 @import "icons/**/*";
@@ -29,3 +30,6 @@ Main File For Imports
 // Globals
 @import "global/_base";
 @import "global/modifiers";
+
+// Components
+@import "components/**/*";

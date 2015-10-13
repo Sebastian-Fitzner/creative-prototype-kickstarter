@@ -1,0 +1,60 @@
+---
+title: Components
+menuLink: Components
+sortOrder: 03
+---
+
+{{#extend "lyt-default"}}
+	{{#content "main"}}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Accordion"}}
+			{{> c-accordion }}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Badges"}}
+			{{> c-badges }}
+		{{/wrapWith}}
+		{{! WrapWith END: }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Breadcrumb"}}
+			{{> c-breadcrumb }}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Button Group"}}
+			{{> c-button-group }}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Dropdown"}}
+			{{> c-dropdown }}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Flashes"}}
+			{{> c-flashes }}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Hover Tiles"}}
+			{{> c-hover-tiles }}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Image With Gradient Overlay"}}
+			{{> c-image-gradients }}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Modal"}}
+			{{> c-modal}}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Pagination"}}
+			{{> c-pagination}}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{/content}}
+{{/extend}}

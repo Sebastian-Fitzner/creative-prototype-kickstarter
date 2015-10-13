@@ -19,6 +19,9 @@ body {
 /* ---------------------------------------------------
 Grid Examples :: Bourbon Neat
 --------------------------------------------------- */
+.grids-example {
+	@include float;
+}
 
 .bourbon-teaser {
 	margin: 0 0 1rem 0;

@@ -48,9 +48,6 @@ module.exports = {
 	},
 	pages: {
 		files: ['<%= paths.src %>/templating/pages/**/{,*/}*.hbs'],
-		tasks: ['newer:assemble:pages'],
-		options: {
-			spawn: false
-		}
+		tasks: ['newer:assemble:pages']
 	}
 };
