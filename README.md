@@ -10,9 +10,6 @@ Current version="0.1.0"
 ### Libsass
 We use Libsass as standard SCSS compiler.
 
-## Frontend Methodology
-
-
 ## Setup
 
 This project builds on following setup (please read requirements and getting started):
@@ -26,31 +23,5 @@ This project builds on following setup (please read requirements and getting sta
 - We use [Git](#).
 - The folder __node_modules__ won't be comitted into GIT. Use ```.gitignore``` to ignore folders or files.
 - Git-commit-messages in english please.
-- All issues are recorded in [Jira](#).
-- Jira-Issues are commented in german/english.
-
-## Browser-Support
-
-- all modern desktop browsers: Firefox, Chrome, IE and Safari/Mac latest version
-- also: IE 10
-- all modern mobile browsers: iOS and Android latest two versions
-
-## Responsive-Webdesign-Support
-
-- Desktop
-- Tablet
-- Phone
-
-### Breakpoints
-- $bp-mobile-s: (max 320px);
-- $bp-mobile-m: (max 480px);
-- $bp-mobile-l: (max 640px);
-- $bp-tablet-p: (max 768px);
-- $bp-tablet-l: (max 1024px);
-- $bp-desktop: (min 1025px);
 
 ## Team
-
-- TPM/PM:
-- Frontend:
-- Backend:
