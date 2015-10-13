@@ -56,5 +56,15 @@ sortOrder: 03
 			{{> c-pagination}}
 		{{/wrapWith}}
 		{{! WrapWith END }}
+		{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Parallax"}}
+			{{> c-parallax}}
+		{{/wrapWith}}
+		{{! WrapWith END }}
+	{{! WrapWith START}}
+		{{#wrapWith "p-section" headline="Progress Bar"}}
+			{{> c-progress}}
+		{{/wrapWith}}
+		{{! WrapWith END }}
 	{{/content}}
 {{/extend}}
